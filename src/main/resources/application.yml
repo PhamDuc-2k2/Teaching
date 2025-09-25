@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: project-01
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/freepdb1
+    username: system
+    password: 30122002
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
