@@ -1,6 +1,5 @@
 package com.ducpham.project_01.model.dto.search;
 
-import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

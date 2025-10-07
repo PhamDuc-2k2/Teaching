@@ -22,5 +22,7 @@ public class ProductDTO {
     private long quantity;
     @PositiveOrZero
     private BigDecimal price;
+
+
 }
 

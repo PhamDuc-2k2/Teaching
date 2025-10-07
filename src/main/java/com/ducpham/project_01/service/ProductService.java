@@ -6,8 +6,10 @@ import com.ducpham.project_01.model.dto.search.ProductSearch;
 
 public interface ProductService {
     ProductDTO create(ProductDTO productDTO);
-    ProductDTO getById(String code);
+    ProductDTO getByCode(String code);
     PageResponse getAll(ProductSearch search);
     ProductDTO update(String code, ProductDTO productDTO);
-    ProductDTO delete(String code);
+    void delete(String code);
+
+    ProductDTO getProductDTOByCode(String code);
 }
